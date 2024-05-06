@@ -18,7 +18,7 @@ const Categories = async ({ params }: { params: { slug: any } }) => {
         <div className="flex flex-wrap -m-4">
           {data.map((item: Iproducts) => {
             return (
-              <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <div key={item._id} className="lg:w-1/4 md:w-1/2 p-4 w-full">
                 <Link
                   href={`../products/${item._id}`}
                   className="block relative h-48 rounded overflow-hidden"

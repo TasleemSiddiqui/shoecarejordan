@@ -24,11 +24,11 @@ const Product = async ({ params }: { params: { slug: any } }) => {
 
   return (
     <div>
-      {data.map((item: Iproducts) => {
+      {data.map((item: Iproducts,index:number) => {
         return (
-          <section className="text-gray-600 body-font overflow-hidden">
+          <section key={index} className="text-gray-600 body-font overflow-hidden">
             <div className="container px-5 py-24 mx-auto">
-              <div className="lg:w-4/5 mx-auto flex flex-wrap">
+              <div  className="lg:w-4/5 mx-auto flex flex-wrap">
                 <Image
                   alt={item.pName}
                   height={600}

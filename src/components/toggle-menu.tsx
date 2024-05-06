@@ -27,8 +27,8 @@ const ToggleMenu = async () => {
             Home
           </Link>
           
-        {uniqueLinks.map((item:any)=>{
-          return(<Link className="mr-5 hover:text-blue-400 text-gray-700" href={`/categories/${item}`}>{item}</Link>)
+        {uniqueLinks.map((item:any,index)=>{
+          return(<Link key={index} className="mr-5 hover:text-blue-400 text-gray-700" href={`/categories/${item}`}>{item}</Link>)
         })}
         
           <Link href={"/products"} className="mr-5 hover:text-blue-400 text-gray-700">

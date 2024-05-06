@@ -40,7 +40,7 @@ const Help = () => {
           <li>
             <span className="font-semibold">Returns</span>
           </li>
-          <li>What is Nike's return policy?</li>
+          <li>What is Nike s return policy?</li>
           <li>How do I return my Nike order?</li>
           <li>Where is my refund?</li>
           <li>View all</li>
@@ -49,7 +49,7 @@ const Help = () => {
           <li>
             <span className="font-semibold">Shipping & Delivery</span>
           </li>
-          <li>What is Nike's return policy?</li>
+          <li>What is Nike s return policy?</li>
           <li>How do I return my Nike order?</li>
           <li>Where is my refund?</li>
           <li>View all</li>
@@ -58,7 +58,7 @@ const Help = () => {
           <li>
             <span className="font-semibold">Orders & Payment</span>
           </li>
-          <li>What is Nike's return policy?</li>
+          <li>What is Nike s return policy?</li>
           <li>How do I return my Nike order?</li>
           <li>Where is my refund?</li>
           <li>View all</li>
@@ -67,7 +67,7 @@ const Help = () => {
           <li>
             <span className="font-semibold">Shopping</span>
           </li>
-          <li>What is Nike's return policy?</li>
+          <li>What is Nike s return policy?</li>
           <li>How do I return my Nike order?</li>
           <li>Where is my refund?</li>
           <li>View all</li>
@@ -76,7 +76,7 @@ const Help = () => {
           <li>
             <span className="font-semibold">Nike Membership & Apps</span>
           </li>
-          <li>What is Nike's return policy?</li>
+          <li>What is Nike s return policy?</li>
           <li>How do I return my Nike order?</li>
           <li>Where is my refund?</li>
           <li>View all</li>
@@ -85,7 +85,7 @@ const Help = () => {
           <li>
             <span className="font-semibold">Company Info</span>
           </li>
-          <li>What is Nike's return policy?</li>
+          <li>What is Nike s return policy?</li>
           <li>How do I return my Nike order?</li>
           <li>Where is my refund?</li>
           <li>View all</li>

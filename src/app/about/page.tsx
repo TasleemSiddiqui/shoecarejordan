@@ -121,7 +121,7 @@ const About = () => {
               Giving Back to Our Communities
             </h1>
             <p className="text-sm text-gray-600 ">
-              We’re committed to building a future where everyone — regardless
+              We're committed to building a future where everyone — regardless
               of where they are from, the color of their skin, their abilities
               or who they love — can thrive.
             </p>

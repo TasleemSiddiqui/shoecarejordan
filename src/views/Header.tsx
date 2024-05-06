@@ -9,8 +9,9 @@ import { Iproducts, datafetch } from "@/datafetch";
 
 
 const Header = async () => {
-  const data =await datafetch();
+  const data:Iproducts[] =await datafetch();
   const uniqueLinks = Array.from(new Set(data.map((item:any) => item.pCategories)));
+  
   return (
     <header className="text-gray-600 body-font">
       <div className=" top-0  bg-white grid grid-cols-2 justify-between  mx-auto md:flex md:flex-wrap p-5 flex-col md:flex-row items-center">
@@ -27,8 +28,9 @@ const Header = async () => {
             Home
           </Link>
           
-        {uniqueLinks.map((item:any)=>{
-          return(<Link className="mr-5 hover:text-blue-400 text-gray-700" href={`/categories/${item}`}>{item}</Link>)
+        {uniqueLinks.map((item:any,index)=>{
+          
+          return(<Link key={index} className="mr-5 hover:text-blue-400 text-gray-700" href={`/categories/${item}`}>{item}</Link>)
         })}
         
           <Link href={"/products"} className="mr-5 hover:text-blue-400 text-gray-700">
